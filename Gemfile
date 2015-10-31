@@ -5,7 +5,7 @@ gem 'rails', '4.2.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.2'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '2.5.3'
+# gem 'uglifier', '2.5.3'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -45,7 +45,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
-  gem 'pg',             '0.17.1'
+  # gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
 end
 
